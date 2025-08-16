@@ -1,0 +1,44 @@
+.layout {
+    background: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px; 
+}
+
+.title {
+    display: flex;
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+}
+
+.title h1 {
+    align-content: center;
+    padding-left: 25px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid 2px #fff;
+    border-radius: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.navLinks {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
