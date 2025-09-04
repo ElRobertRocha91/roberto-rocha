@@ -1,0 +1,19 @@
+.pageSection {
+    padding: 10px;
+}
+
+.titleSection {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.containerProject {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    text-align: center;
+}
