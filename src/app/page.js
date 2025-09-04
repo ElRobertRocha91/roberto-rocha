@@ -1,5 +1,8 @@
 import Image from "next/image";
 import About from "@/components/page/about/About";
+import Experiences from "@/components/page/experiences/Experiences";
+import Projects from "@/components/page/projects/Projects";
+import Contact from "@/components/page/contact/Contact";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -45,6 +48,9 @@ export default function Home() {
           </div>
         </section>
         <About />
+        <Experiences />
+        <Projects />
+        <Contact />
         {/* <Image
           className={styles.logo}
           src="/next.svg"
