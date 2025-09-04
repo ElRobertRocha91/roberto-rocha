@@ -1,0 +1,23 @@
+.pageExperiences {
+    padding: 10px;
+}
+
+.titleExperiences {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.containerExperiences {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    margin: 10px;
+}
+
+.image {
+    text-align: center;
+}
